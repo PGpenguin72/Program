@@ -105,5 +105,3 @@ else:
 
 print("\n\n\n\n按下任意鍵離開或關閉程序")
 msvcrt.getch()
-
-
