@@ -8,7 +8,7 @@ from turtle import *
 
 cmd("title 賽龜小程序")
 cmd("cls")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.0 請勿隨意修改程序碼 \n\n\n")
+print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼 \n\n\n")
 print("(5秒後即將開始遊戲！)")
 
 t = "turtle"
@@ -82,6 +82,7 @@ while True:
         print("賽龜即將開始")
     elif Uinput == "stop":
         print("遊戲即將結束")
+        round_time = round_time - one
         break
     else:
         tr.hideturtle()
@@ -155,6 +156,6 @@ else:
 
 
 print("\n\n")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.0 請勿隨意修改程序碼")
+print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
 print("\n\n\n按下任意鍵離開或關閉程序")
 msvcrt.getch()
