@@ -4,7 +4,7 @@ import os
 from os import system as cmd
 
 location = os.path.dirname(__file__)
-Games = os.path.join(location, "Games")
+Games = os.path.join(location, "Apps")
 
 while True:
     cmd("cls")
