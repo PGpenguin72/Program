@@ -8,7 +8,7 @@ from turtle import *
 
 cmd("title 賽龜小程序")
 cmd("cls")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼 \n\n\n")
+print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼 \n\n\n")
 print("(5秒後即將開始遊戲！)")
 
 t = "turtle"
@@ -141,21 +141,28 @@ while True:
     tg.hideturtle()
     tb.hideturtle()
 
-print("\n\n\n")
-name = input("請輸入你的名字： \n > > >")
-cmd("cls")
-print("姓名：", name)
-print("遊玩局數：", round_time)
-print("贏的局數：", win_time)
-print("勝率：", per ,"%")
-print("\n")
-if per < 20:
-    print("System:啊? 這麼簡單的遊戲也可以輸成這樣?")
+if Uinput == "stop" and round_time == 0 :
+    cmd("cls")
+    print("\n\n")
+    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()
 else:
-    print("System:厲害! 本作者都沒辦法玩到這麼高分呢:D")
+    print("\n\n\n")
+    name = input("請輸入你的名字： \n > > >")
+    cmd("cls")
+    print("姓名：", name)
+    print("遊玩局數：", round_time)
+    print("贏的局數：", win_time)
+    print("勝率：", per ,"%")
+    print("\n")
+    if per < 20:
+        print("System:啊? 這麼簡單的遊戲也可以輸成這樣?")
+    else:
+        print("System:厲害! 本作者都沒辦法玩到這麼高分呢:D")
 
 
-print("\n\n")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
-print("\n\n\n按下任意鍵離開或關閉程序")
-msvcrt.getch()
+    print("\n\n")
+    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()

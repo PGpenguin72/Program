@@ -7,7 +7,7 @@ from os import system as cmd
 
 cmd("title 隨機分組小程序")
 cmd("cls")
-print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.0 請勿隨意修改程序碼 \n\n\n")
+print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼 \n\n\n")
 print("(3秒後即將開始分組！)")
 time.sleep(3)
 cmd("cls")
@@ -16,7 +16,10 @@ while True:
     input_players = ""
     while not input_players.strip():
         input_players = input("請輸入所有成員名單，並以「, 」隔開每個成員的名字(或輸入stop來結束分組)。\n(例如:小明, 小紅, 小黃) \n > > >")
-    input_players = input_players.split(', ')
+    if input_players == "stop":
+        break
+    else:
+        input_players = input_players.split(', ')
 
     input_team = ""
     while not input_team.strip():
@@ -126,14 +129,20 @@ while True:
         print()
         break                 
 
-print()
-cmd("cls")
-for index, team_key in enumerate(teams.keys()):
-    if index < len(T_list):
-        print(f'{teams[team_key]} 成員: {", ".join(T_list[index])}')
-        time.sleep(0.2)
+if input_players == "stop":
+    cmd("cls")
+    print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()
+else:
+    print()
+    cmd("cls")
+    for index, team_key in enumerate(teams.keys()):
+        if index < len(T_list):
+            print(f'{teams[team_key]} 成員: {", ".join(T_list[index])}')
+            time.sleep(0.2)
 
-print("\n\n")
-print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.0 請勿隨意修改程序碼")
-print("\n\n\n按下任意鍵離開或關閉程序")
-msvcrt.getch()
+    print("\n\n")
+    print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()

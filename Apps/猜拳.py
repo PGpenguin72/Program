@@ -6,7 +6,7 @@ import os
 from os import system as cmd
 
 cmd("title 猜拳小程序")
-print("猜拳小程式，Made By.PGpenguin72 \n ver. 1.0.4 請勿隨意修改程序碼")
+print("猜拳小程式，Made By.PGpenguin72 \n ver. 1.0.6 請勿隨意修改程序碼")
 print("3秒後即將開始遊戲！")
 
 win_time = 0
@@ -72,21 +72,27 @@ while True:
     per = win_time / round_time * hundred
     time.sleep(3)
 
-print("\n\n\n")
-name = input("請輸入你的名字： \n > > >")
-cmd("cls")
-print("姓名：", name)
-print("遊玩局數：", round_time)
-print("贏的局數：", win_time)
-print("勝率：", per ,"%")
-print("\n")
-if per < 50:
-    print("System:蔡，就多練！輸不起就別玩（誤")
+if player == "stop" and round_time == 0:
+    print("\n\n\n")
+    print("猜拳小程式，Made By.PGpenguin72 \n ver. 1.0.6 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()
 else:
-    print("System:好哦好哦，阿不就好棒棒（誤")
+    print("\n\n\n")
+    name = input("請輸入你的名字： \n > > >")
+    cmd("cls")
+    print("姓名：", name)
+    print("遊玩局數：", round_time)
+    print("贏的局數：", win_time)
+    print("勝率：", per ,"%")
+    print("\n")
+    if per < 50:
+        print("System:蔡，就多練！輸不起就別玩（誤")
+    else:
+        print("System:好哦好哦，阿不就好棒棒（誤")
 
 
-print("\n\n\n")
-print("猜拳小程式，Made By.PGpenguin72 \n ver. 1.0.4 請勿隨意修改程序碼")
-print("\n\n\n按下任意鍵離開或關閉程序")
-msvcrt.getch()
+    print("\n\n\n")
+    print("猜拳小程式，Made By.PGpenguin72 \n ver. 1.0.6 請勿隨意修改程序碼")
+    print("\n\n\n按下任意鍵離開或關閉程序")
+    msvcrt.getch()
