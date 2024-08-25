@@ -10,9 +10,9 @@
 下載後解壓縮完成後，執行 main.py 選擇你想開啟的程序。
 
 ## 目前有的程序:
-- [猜拳.py](https://github.com/PGpenguin72/Program/main/README.md#%E7%8C%9C%E6%8B%B3)
-* [隨機分組.py](https://github.com/PGpenguin72/Program/main/README.md#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
-+ [賽龜.py](https://github.com/PGpenguin72/Program/main/README.md#%E8%B3%BD%E9%BE%9C)
+- [猜拳.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E7%8C%9C%E6%8B%B3)
+* [隨機分組.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
++ [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)
 
 ### 猜拳
 輸入 " 剪刀 石頭 或 布" 可以與系統進行猜拳， 猜拳後會自動統計勝率。
