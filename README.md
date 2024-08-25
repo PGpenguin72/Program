@@ -1,7 +1,6 @@
 > [!IMPORTANT]  
 > 程序請勿過分解讀，若有不適請停止使用並刪除，執行程序即代表你同意不隨意修改程式碼並尊重智慧財產權。
 # 小程序大集結 ver.1.0.5
-Created by.PGpenguin72  
 (程序圖片:)
 
 <img src="image/PSR.jpg" width="30%">  <img src="image/RG.jpg" width="30%">  <img src="image/TR.jpg" width="30%">
