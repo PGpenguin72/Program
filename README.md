@@ -38,5 +38,5 @@
 修改變更後開啟 Pull Request 來把你的變更合併到下一次的更新裡面  
 
 ## 製作者:
-[PGpenguin72](https://github.com/PGpenguin72/) ``程式設計``
+[PGpenguin72](https://github.com/PGpenguin72/) ``程式設計``  
 [2008-04-03](https://github.com/2008-04-03) ``代碼優化``
