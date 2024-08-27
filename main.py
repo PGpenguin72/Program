@@ -6,42 +6,42 @@ from os import system as cmd
 location = os.path.dirname(__file__)
 Games = os.path.join(location, "Apps")
 ver = {
-    "猜拳" : "1.0.6",
-    "隨機分組" : "1.0.1",
-    "賽龜" : "1.0.2"
+    "猜枚戲" : "1.0.6",
+    "以緣分之組" : "1.0.1",
+    "競龜戲" : "1.0.2"
 }
 
 while True:
     cmd("cls")
-    print("小遊戲大集結，Made By.PGpenguin72 \n ver. 1.0.5 請勿隨意修改程序碼")
-    print("目前擁有的程序:")
+    print("肆，造作者企鵝 \n 版. 1.0.5 勿改")
+    print("可擇之項:")
 
     for dirpath, dirnames, filenames in os.walk(Games):
         for filename in filenames:
             name, ext = os.path.splitext(filename)
             print(">", name)
 
-    Uinput = input("請問你想玩什麼遊戲? \n > > > ")
-    if Uinput == "猜拳":
+    Uinput = input("擇一啟之 \n > > > ")
+    if Uinput == "猜枚戲":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D") 
+        print("\n\n\n 正啟之") 
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "賽龜":
+    elif Uinput == "競龜戲":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D")
+        print("\n\n\n 正啟之")
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "隨機分組":
+    elif Uinput == "以緣分之組":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D")
+        print("\n\n\n 正啟之")
         time.sleep(3)
         cmd("cls")
         break
     else:
-        print("\n\n\n (目前不支持此軟件，請重新輸入)")
+        print("\n\n\n (不可以之啟之)")
         time.sleep(3)
         continue
 
@@ -71,14 +71,14 @@ penup()
 goto(0,50)
 speed(0)
 color(Colors["Black"])
-write(arg= Uinput + "小程序，Made By.PGpenguin72", font=style, align="center")
+write(arg= Uinput + "，造作者企鵝", font=style, align="center")
 right(90)
 forward(40)
-write(arg="ver. " + ver[Uinput] + "請勿隨意修改程序碼", font=style, align="center")
+write(arg="版. " + ver[Uinput] + "勿改", font=style, align="center")
 forward(120)
-write(arg="(五秒後即將開始執行程序)", font=style_2, align="left")
+write(arg="(一彈指，即始。)", font=style_2, align="left")
 forward(20)
-for i in range(5):
+for i in range(7):
     hideturtle()
     time.sleep(0.5)
     showturtle()
@@ -88,13 +88,13 @@ clear()
 bye()
 
 
-if Uinput == "猜拳":
+if Uinput == "猜枚戲":
     os.chdir(Games)
-    cmd("python 猜拳.py")
-elif Uinput == "賽龜":
+    cmd("python 猜枚戲.py")
+elif Uinput == "競龜戲":
     os.chdir(Games)
-    cmd("python 賽龜.py")
-elif Uinput == "隨機分組":
+    cmd("python 競龜戲.py")
+elif Uinput == "以緣分之組":
     time.sleep(3)
     cmd("cls")
-    cmd("python 隨機分組.py")
+    cmd("python 以緣分之組.py")
