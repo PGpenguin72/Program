@@ -40,4 +40,4 @@
 ## 製作者:
 [PGpenguin72](https://github.com/PGpenguin72/) ``程式設計`` ``簡體中文翻譯`` ``文言文翻譯``  
 [2008-04-03](https://github.com/2008-04-03) ``代碼優化``  
-[dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D)``英文翻譯``
+[dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) ``英文翻譯``
