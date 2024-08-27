@@ -6,10 +6,10 @@ from random import randint
 from os import system as cmd
 from turtle import *
 
-cmd("title 賽龜小程序")
+cmd("title 赛龟小程序")
 cmd("cls")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼 \n\n\n")
-print("(5秒後即將開始遊戲！)")
+print("赛龟小程序，Made By.PGpenguin72 \n ver. 1.0.2 请勿随意修改程序码 \n\n\n")
+print("(5秒后开始游戏！)")
 
 t = "turtle"
 raw = -250
@@ -71,17 +71,17 @@ while True:
 
     cmd("cls")
     print("++++++++++++++++++++++++++")
-    print("目前局數：", round_time)
-    print("贏的局數：", win_time)
-    print("勝率：", per ,"%")
+    print("目前局数：", round_time)
+    print("赢的局数：", win_time)
+    print("胜率：", per ,"%")
     print("++++++++++++++++++++++++++")
     round_time = round_time + one
     print("第", round_time, "局")
-    Uinput = input("請選擇你覺得會贏的烏龜'紅、橙、黃、綠或藍'(或輸入stop來停止) \n > > >")
-    if Uinput in ["紅", "橙", "黃", "綠", "藍"]:
-        print("賽龜即將開始")
+    Uinput = input("请选择可能跑第一的乌龟'红、橙、黄、绿或蓝'(或输入stop来停止) \n > > >")
+    if Uinput in ["红", "橙", "黄", "绿", "蓝"]:
+        print("赛龟即将开始")
     elif Uinput == "stop":
-        print("遊戲即將結束")
+        print("游戏即将结束")
         round_time = round_time - one
         break
     else:
@@ -90,7 +90,7 @@ while True:
         ty.hideturtle()
         tg.hideturtle()
         tb.hideturtle()
-        print("請確認你輸入的文字")
+        print("请确认你输入的信息")
         round_time = round_time - one
         continue
 
@@ -113,27 +113,27 @@ while True:
     TB = round(TB, 0) 
 
     if TR > TO and TR > TG and TR > TY and TR > TB:
-        rank = "紅"
+        rank = "红"
     if TO > TR and TO > TG and TO > TY and TO > TB:
         rank = "橙"
     if TY > TO and TY > TG and TY > TR and TY > TB:
-        rank = "黃"
+        rank = "黄"
     if TG > TO and TG > TR and TG > TY and TG > TB:
-        rank = "綠"
+        rank = "绿"
     if TB > TO and TB > TG and TB > TY and TB > TR:
-        rank = "藍"
+        rank = "蓝"
 
     if rank == Uinput:
         print("恭喜你猜中了:D \n\n\n")
         win_time = win_time + one
     elif rank == "error":
-        print("系統出錯，請重新啟動遊戲 \n\n\n")
+        print("系统出错，请重新运行 \n\n\n")
     else:
-        print("喔不，你猜錯了:( 再試一次吧! \n\n\n")
+        print("猜错了就再试一次啊，1/5的概率，行不行啊你？ \n\n\n")
     
     per = win_time / round_time * 100
     
-    print("5秒後即將開始新的遊戲")
+    print("5秒后即将开始新的回合")
     time.sleep(3)
     tr.hideturtle()
     to.hideturtle()
@@ -144,25 +144,25 @@ while True:
 if Uinput == "stop" and round_time == 0 :
     cmd("cls")
     print("\n\n")
-    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("赛龟小程序，Made By.PGpenguin72 \n ver. 1.0.2 请勿随意修改程序码")
+    print("\n\n\n按下任意键离开或关闭程序")
     msvcrt.getch()
 else:
     print("\n\n\n")
-    name = input("請輸入你的名字： \n > > >")
+    name = input("请输入你的用户名： \n > > >")
     cmd("cls")
-    print("姓名：", name)
-    print("遊玩局數：", round_time)
-    print("贏的局數：", win_time)
-    print("勝率：", per ,"%")
+    print("用户名：", name)
+    print("游玩局数：", round_time)
+    print("赢的局数：", win_time)
+    print("胜率：", per ,"%")
     print("\n")
     if per < 20:
-        print("System:啊? 這麼簡單的遊戲也可以輸成這樣?")
+        print("System:啊? 这游戏又咋难吗？还不是轻轻松松？咋可以输成这副狗样")
     else:
-        print("System:厲害! 本作者都沒辦法玩到這麼高分呢:D")
+        print("System:我让你骄傲了吗？ 有这时间玩游戏不如去多读点书，清华北大还会难上吗？")
 
 
     print("\n\n")
-    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("赛龟小程序，Made By.PGpenguin72 \n ver. 1.0.2 请勿随意修改程序码")
+    print("\n\n\n按下任意键离开或关闭程序")
     msvcrt.getch()
