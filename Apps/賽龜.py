@@ -6,10 +6,10 @@ from random import randint
 from os import system as cmd
 from turtle import *
 
-cmd("title 賽龜小程序")
+cmd("title Turtle Racing")
 cmd("cls")
-print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼 \n\n\n")
-print("(5秒後即將開始遊戲！)")
+print("Turtle Racing, Made By.PGpenguin72 \n ver. 1.0.2 Do not modify the code arbitrarily. \n\n\n")
+print("(Game starts in 5 seconds!)")
 
 t = "turtle"
 raw = -250
@@ -71,17 +71,17 @@ while True:
 
     cmd("cls")
     print("++++++++++++++++++++++++++")
-    print("目前局數：", round_time)
-    print("贏的局數：", win_time)
-    print("勝率：", per ,"%")
+    print("Round Time:", round_time)
+    print("Win Time:", win_time)
+    print("Wining Rate:", per ,"%")
     print("++++++++++++++++++++++++++")
     round_time = round_time + one
-    print("第", round_time, "局")
-    Uinput = input("請選擇你覺得會贏的烏龜'紅、橙、黃、綠或藍'(或輸入stop來停止) \n > > >")
-    if Uinput in ["紅", "橙", "黃", "綠", "藍"]:
-        print("賽龜即將開始")
+    print("Round ", round_time)
+    Uinput = input("Choose which color of the turtle will be the winner 'Red, Orange, Yellow, Green or Blue'(or enter stop to end the game) \n > > >")
+    if Uinput in ["Red", "Orange", "Yellow", "Green", "Blue"]:
+        print("Turtle Racing is about to start")
     elif Uinput == "stop":
-        print("遊戲即將結束")
+        print("The game is about to come to an end")
         round_time = round_time - one
         break
     else:
@@ -90,7 +90,7 @@ while True:
         ty.hideturtle()
         tg.hideturtle()
         tb.hideturtle()
-        print("請確認你輸入的文字")
+        print("Please check the text you entered ")
         round_time = round_time - one
         continue
 
@@ -113,27 +113,27 @@ while True:
     TB = round(TB, 0) 
 
     if TR > TO and TR > TG and TR > TY and TR > TB:
-        rank = "紅"
+        rank = "Red"
     if TO > TR and TO > TG and TO > TY and TO > TB:
-        rank = "橙"
+        rank = "Orange"
     if TY > TO and TY > TG and TY > TR and TY > TB:
-        rank = "黃"
+        rank = "Yellow"
     if TG > TO and TG > TR and TG > TY and TG > TB:
-        rank = "綠"
+        rank = "Green"
     if TB > TO and TB > TG and TB > TY and TB > TR:
-        rank = "藍"
+        rank = "Blue"
 
     if rank == Uinput:
-        print("恭喜你猜中了:D \n\n\n")
+        print("Congrats! Nice guess! :D \n\n\n")
         win_time = win_time + one
     elif rank == "error":
-        print("系統出錯，請重新啟動遊戲 \n\n\n")
+        print("ERROR. Please restart the game. \n\n\n")
     else:
-        print("喔不，你猜錯了:( 再試一次吧! \n\n\n")
+        print("Oh no, wrong guess :( Try it again! \n\n\n")
     
     per = win_time / round_time * 100
     
-    print("5秒後即將開始新的遊戲")
+    print("New game will start in 5 seconds")
     time.sleep(3)
     tr.hideturtle()
     to.hideturtle()
@@ -144,25 +144,25 @@ while True:
 if Uinput == "stop" and round_time == 0 :
     cmd("cls")
     print("\n\n")
-    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("Turtle Racing, Made By.PGpenguin72 \n ver. 1.0.2 Do not modify the code arbitrarily.")
+    print("\n\n\nPress any key to exit or close the program.")
     msvcrt.getch()
 else:
     print("\n\n\n")
-    name = input("請輸入你的名字： \n > > >")
+    name = input("Please enter your name: \n > > >")
     cmd("cls")
-    print("姓名：", name)
-    print("遊玩局數：", round_time)
-    print("贏的局數：", win_time)
-    print("勝率：", per ,"%")
+    print("Name:", name)
+    print("Round Time:", round_time)
+    print("Win Time:", win_time)
+    print("Winning Rate", per ,"%")
     print("\n")
     if per < 20:
-        print("System:啊? 這麼簡單的遊戲也可以輸成這樣?")
+        print("System: Huh? You're impossible!")
     else:
-        print("System:厲害! 本作者都沒辦法玩到這麼高分呢:D")
+        print("System: You rock!  You're really something! :D")
 
 
     print("\n\n")
-    print("賽龜小程式，Made By.PGpenguin72 \n ver. 1.0.2 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("Turtle Racing, Made By.PGpenguin72 \n ver. 1.0.2 Do not modify the code arbitrarily.")
+    print("\n\n\nPress any key to exit or close the program.")
     msvcrt.getch()

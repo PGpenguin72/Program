@@ -6,42 +6,42 @@ from os import system as cmd
 location = os.path.dirname(__file__)
 Games = os.path.join(location, "Apps")
 ver = {
-    "猜拳" : "1.0.6",
-    "隨機分組" : "1.0.1",
-    "賽龜" : "1.0.2"
+    "Paper-Scissors-Stone": "1.0.6",
+    "Random Grouping": "1.0.1",
+    "Turtle Racing": "1.0.2"
 }
 
 while True:
     cmd("cls")
-    print("小遊戲大集結，Made By.PGpenguin72 \n ver. 1.0.5 請勿隨意修改程序碼")
-    print("目前擁有的程序:")
+    print("Mini Program UNITE, Made By. PGpenguin72\n ver. 1.0.5 Do not modify the code arbitrarily")
+    print("Available programs by far:")
 
     for dirpath, dirnames, filenames in os.walk(Games):
         for filename in filenames:
             name, ext = os.path.splitext(filename)
             print(">", name)
 
-    Uinput = input("請問你想玩什麼遊戲? \n > > > ")
-    if Uinput == "猜拳":
+    Uinput = input("Which game do you want to play? \n > > > ")
+    if Uinput == "Paper-Scissors-Stone":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D") 
+        print("\n\n\n program booting :D") 
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "賽龜":
+    elif Uinput == "Turtle Racing":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D")
+        print("\n\n\n mini program booting :D")
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "隨機分組":
+    elif Uinput == "Random Grouping":
         os.chdir(Games)
-        print("\n\n\n 正在啟動小程序:D")
+        print("\n\n\n program booting :D")
         time.sleep(3)
         cmd("cls")
         break
     else:
-        print("\n\n\n (目前不支持此軟件，請重新輸入)")
+        print("\n\n\n (Software unsupported, please re-enter)")
         time.sleep(3)
         continue
 
@@ -71,12 +71,12 @@ penup()
 goto(0,50)
 speed(0)
 color(Colors["Black"])
-write(arg= Uinput + "小程序，Made By.PGpenguin72", font=style, align="center")
+write(arg= Uinput + "Mini Program, Made By. PGpenguin72", font=style, align="center")
 right(90)
 forward(40)
-write(arg="ver. " + ver[Uinput] + "請勿隨意修改程序碼", font=style, align="center")
+write(arg="ver. " + ver[Uinput] + "Do not modify the code arbitrarily", font=style, align="center")
 forward(120)
-write(arg="(五秒後即將開始執行程序)", font=style_2, align="left")
+write(arg="(Program will be executed in five seconds)", font=style_2, align="left")
 forward(20)
 for i in range(5):
     hideturtle()
@@ -88,13 +88,13 @@ clear()
 bye()
 
 
-if Uinput == "猜拳":
+if Uinput == "Paper-Scissors-Stone":
     os.chdir(Games)
-    cmd("python 猜拳.py")
-elif Uinput == "賽龜":
+    cmd("python Paper-Scissors-Stone.py")
+elif Uinput == "Turtle Racing":
     os.chdir(Games)
-    cmd("python 賽龜.py")
-elif Uinput == "隨機分組":
+    cmd("python Turtle Racing.py")
+elif Uinput == "Random Grouping":
     time.sleep(3)
     cmd("cls")
-    cmd("python 隨機分組.py")
+    cmd("python Random Grouping.py")

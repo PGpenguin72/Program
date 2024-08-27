@@ -1,49 +1,54 @@
-> [!IMPORTANT]  
-> 程序請勿過分解讀，若有不適請停止使用並刪除，執行程序即代表你同意不隨意修改程式碼並尊重智慧財產權。
-# 小程序大集結 ver.1.0.5
-(程序圖片:)
+> [!IMPORTANT]
+> Do not over interpret the code.  Stop using, and delete the code if there's any discomfort.  By executing the program, you are agreeing to respect intellectual property rights. Do not modify the code arbitrarily.
+
+# Mini Program UNITE ver.1.0.5
+
+(Program Pictures:)
 
 <img src="image/PSR.jpg" width="30%">  <img src="image/RG.jpg" width="30%">  <img src="image/TR.jpg" width="30%">
 
-## 如何使用:
-選擇右上角的 "<>code" 按鈕，選擇"Download Zip"來下載程序。  
-下載後解壓縮完成後，執行 main.py 選擇你想開啟的程序。
+## Guidance:
 
-## 目前有的程序:
-- [猜拳.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E7%8C%9C%E6%8B%B3)
-* [隨機分組.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
-+ [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)
+Click the "<>code" button on top-right, and select "Download Zip" to down the program.
+Unzip the file, and execute main.py to start the program you want.
 
-### 猜拳
-輸入 " 剪刀 石頭 或 布" 可以與系統進行猜拳， 猜拳後會自動統計勝率。
-若要結束遊戲可以輸入 "stop" 來做總結，並得到一段神奇的話。  
-神奇的話:
-> 勝率≥50: System:好哦好哦，阿不就好棒棒（誤  
-> 勝率<50: System:蔡，就多練！輸不起就別玩（誤
+## Available programs by far:
 
-### 隨機分組
-輸入所有成員名單，並以「, 」隔開每個成員的名字(例如:小明, 小紅, 小黃)。系統隨機分組完後，用戶可以選擇要重新分組(以剛剛的資料繼續重新分組);重新開始(不保留任何資料);或是最後總結。  
-若要結束程序可以輸入 "stop" 來做停止。
+- [Paper-Scissors-Stone.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E7%8C%9C%E6%8B%B3)
 
-### 賽龜
-輸入烏龜的顏色 " 紅 橙 黃 綠 或 藍" 可以猜哪個烏龜會跑最遠， 烏龜停止跑步後會自動統計命中率。
-若要結束遊戲可以輸入 "stop" 來做總結，並得到一段神奇的話。  
-神奇的話:
-> 勝率≥20: System:厲害! 本作者都沒辦法玩到這麼高分呢:D  
-> 勝率<20: System:啊? 這麼簡單的遊戲也可以輸成這樣?
+* [Random Group.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
 
-## 如何提交建議
-點擊右上角的 Code 按鈕後點擊 Download ZIP 來下載原始碼壓縮檔
-或是使用 git clone 指令來複製一份原始碼到你的電腦上  
-修改變更後開啟 Pull Request 來把你的變更合併到下一次的更新裡面  
+- [Turtle Racing.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)
 
-## 貢獻者:
-[PGpenguin72](https://github.com/PGpenguin72/) ``程式設計`` ``簡體中文翻譯`` ``文言文翻譯`` ``英文翻譯``  
-[2008-04-03](https://github.com/2008-04-03) ``代碼優化``  
-[dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) ``英文翻譯``
+### Paper-Scissors-Stone
 
-## 翻譯: [![Crowdin](https://badges.crowdin.net/pg_program/localized.svg)](https://crowdin.com/project/pg_program)
-簡體中文: [ ####------ ] 未校對``38%``已校對``0%``  
-繁體中文(港): [ ---------- ] 未校對``0%``已校對``0%``  
-文言文: [ ********** ] 未校對``98%``已校對``0%``  
-英文: [ ######**** ] 未校對``100%``已校對``57%``  
+Input "paper, scissors, or stone" to start the game. Winning rates will be calculated every round.
+Input "stop" to end the game, and you would receive a marvelous passage.
+Marvelous passages:
+
+> Winning rate ≥ 50%: System: Yeah, yeah. Aren't you great.
+> Winning rate < 50%: System: Ha ha, you suck! Come on! Don't be such a sore loser.
+
+### Random Grouping
+
+Enter the member list, and separate every member's name with "," (e.g. John, Mandy, Jason... etc.) After the random grouping, users can decide  to regroup (base on the original data), resume (no data retained), or sum up.
+Enter "stop" to end the program.
+
+### Turtle Racing
+
+Guess which turtle run the farthest, and enter its color. Hit rates will be calculated after the turtles stop.
+Input "stop" to end the game and sum up, and you will get a marvelous passage.
+Marvelous passage:
+
+> Winning rate≥20%: System: You rock! You're really something! :D
+> Winning rate<20%: System: Huh? You're impossible!
+
+## To submit suggestion
+
+Click the Code button on the upper right, and click "Download ZIP" to download the zipped file of the source code.
+Or use "git clone" command to duplicate the source code on your computer. Modify and then open Pull Request to merge your modification into the next update.
+
+## Programmer:
+
+[PGpenguin72](https://github.com/PGpenguin72/) `Programming`\
+[2008-04-03](https://github.com/2008-04-03) `Code Optimized`

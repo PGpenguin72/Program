@@ -5,17 +5,17 @@ import time
 from random import choice
 from os import system as cmd
 
-cmd("title 隨機分組小程序")
+cmd("title Random Grouping")
 cmd("cls")
-print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼 \n\n\n")
-print("(3秒後即將開始分組！)")
+print("Random Grouping, Made By.PGpenguin72 \n ver. 1.0.1 Do not modify the code arbitrarily. \n\n\n")
+print("(Start grouping in 3 seconds!)")
 time.sleep(3)
 cmd("cls")
 
 while True:
     input_players = ""
     while not input_players.strip():
-        input_players = input("請輸入所有成員名單，並以「, 」隔開每個成員的名字(或輸入stop來結束分組)。\n(例如:小明, 小紅, 小黃) \n > > >")
+        input_players = input('Enter the member list, and separate every member's name with ", " (or enter "stop" to end grouping.) \n(e.g. John, Mandy, Jason... etc.) \n > > >')
     if input_players == "stop":
         break
     else:
@@ -23,7 +23,7 @@ while True:
 
     input_team = ""
     while not input_team.strip():
-        input_team = input("請輸入要分的組別名稱,並以「, 」隔開(最多26個組)。\n (企鵝隊, 螃蟹隊, 北極熊隊) \n > > > ")
+        input_team = input('Enter team names, and separate every team name with "," (26 teams at most.) \n (e.g. Penguin, Crab, Polar Bear... etc.) \n > > > ')
     input_team = input_team.split(", ")
 
     team_Raw = input_team
@@ -71,19 +71,19 @@ while True:
         cmd("cls")
         for index, team_key in enumerate(teams.keys()):
             if index < len(T_list):
-                print(f'{teams[team_key]} 成員: {", ".join(T_list[index])}')
+                print(f'{teams[team_key]} member: {", ".join(T_list[index])}')
                 time.sleep(0.3)
 
         while True:
-            ans = input("請問是否重新隨機分組?(Y/N) \n > > >")
+            ans = input("Regroup or not?(Y/N) \n > > >")
             if ans == "Y":
-                print("正在準備重新分組中")
+                print("Regroup preparing...")
                 cmd("cls")
                 break
             elif ans == "N":
                 print()
                 while True:
-                    ans_2 = input("那是否要重新開始(R)或統整數據(C) \n (註: 重新開始會刪除所有數據，統整數據會只保留結果於終端機。) \n > > > ")
+                    ans_2 = input("Resume(R) or Calculate (C)? \n (Note: resume to delete all data; calculate to save grouping result in terminal.) \n > > > ")
                     if ans_2 == "R":
                         print()
                         break
@@ -91,7 +91,7 @@ while True:
                         print()
                         break
                     else:
-                        print("請確認字母大小寫或是否有輸入錯誤")
+                        print("Please check your text.")
                         continue
                 if ans_2 == "R":
                     print()
@@ -102,15 +102,15 @@ while True:
             elif ans == "":
                 continue
             else:
-                print("請確認字母大小寫或是否有輸入錯誤")
+                print("Please check your text.")
                 continue                       
 
             if ans_2 == "R":
-                print("正在清除檔案")        
+                print("Data deleting...")        
                 time.sleep(3)
                 break  
             elif ans_2 == "C":
-                print("正在記錄數據")
+                print("Data recording...")
                 time.sleep(2)
                 break 
         
@@ -131,18 +131,18 @@ while True:
 
 if input_players == "stop":
     cmd("cls")
-    print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("Random Grouping, Made By.PGpenguin72 \n ver. 1.0.1 Do not modify the code arbitrarily. \n\n\n")
+    print("\n\n\nPress any key to exit or close the program.")
     msvcrt.getch()
 else:
     print()
     cmd("cls")
     for index, team_key in enumerate(teams.keys()):
         if index < len(T_list):
-            print(f'{teams[team_key]} 成員: {", ".join(T_list[index])}')
+            print(f'{teams[team_key]} member: {", ".join(T_list[index])}')
             time.sleep(0.2)
 
     print("\n\n")
-    print("隨機分組小程式，Made By.PGpenguin72 \n ver. 1.0.1 請勿隨意修改程序碼")
-    print("\n\n\n按下任意鍵離開或關閉程序")
+    print("Random Grouping, Made By.PGpenguin72 \n ver. 1.0.1 Do not modify the code arbitrarily. \n\n\n")
+    print("\n\n\nPress any key to exit or close the program.")
     msvcrt.getch()
