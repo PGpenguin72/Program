@@ -41,3 +41,9 @@
 [PGpenguin72](https://github.com/PGpenguin72/) ``程式設計`` ``簡體中文翻譯`` ``文言文翻譯``  
 [2008-04-03](https://github.com/2008-04-03) ``代碼優化``  
 [dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) ``英文翻譯``
+
+## 翻譯: [![Crowdin](https://badges.crowdin.net/pg_program/localized.svg)](https://crowdin.com/project/pg_program)
+簡體中文: [ ####       ] 未校對``38%``已校對``0%``  
+繁體中文(港): [            ] 未校對``38%``已校對``0%``  
+文言文: [ ********** ] 未校對``38%``已校對``0%``  
+英文: [ ######**** ] 未校對``100%``已校對``57%``
