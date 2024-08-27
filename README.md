@@ -37,7 +37,7 @@
 或是使用 git clone 指令來複製一份原始碼到你的電腦上  
 修改變更後開啟 Pull Request 來把你的變更合併到下一次的更新裡面  
 
-## 製作者:
+## 貢獻者:
 [PGpenguin72](https://github.com/PGpenguin72/) ``程式設計`` ``簡體中文翻譯`` ``文言文翻譯`` ``英文翻譯``  
 [2008-04-03](https://github.com/2008-04-03) ``代碼優化``  
 [dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) ``英文翻譯``
