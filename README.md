@@ -12,8 +12,8 @@
 ## 目前有的程序:
 - [猜拳.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E7%8C%9C%E6%8B%B3)
 * [隨機分組.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
-+ [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)  
-+ [加解密.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%%E5%8A%A0%E8%A7%A3%E5%AF%86)
++ [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)
+- [加解密.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%%E5%8A%A0%E8%A7%A3%E5%AF%86)
 
 ### 猜拳
 輸入 " 剪刀 石頭 或 布" 可以與系統進行猜拳， 猜拳後會自動統計勝率。
