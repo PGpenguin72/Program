@@ -21,6 +21,7 @@ round_time = 0
 one = 1 
 per = 100
 
+title("賽龜小程序")
 penup()
 goto(-250,140)
 speed(0)
