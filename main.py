@@ -8,7 +8,8 @@ Games = os.path.join(location, "Apps")
 ver = {
     "猜拳" : "1.0.6",
     "隨機分組" : "1.0.1",
-    "賽龜" : "1.0.2"
+    "賽龜" : "1.0.2",
+    "加解密" : "1.0.0"
 }
 
 while True:
@@ -98,3 +99,7 @@ elif Uinput == "隨機分組":
     time.sleep(3)
     cmd("cls")
     cmd("python 隨機分組.py")
+elif Uinput == "加解密":
+    time.sleep(3)
+    cmd("cls")
+    cmd("python 加解密.py")
