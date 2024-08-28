@@ -27,7 +27,7 @@ while True:
     print("++++++++++++++++++++++++++")
     round_time += one
     print("Round", round_time)
-    player = input("choose paper, scissors, or stone (or enter "stop" to calculate score) \n > > >")
+    player = input("choose Paper, Scissors, or Stone (or enter 'stop' to calculate score) \n > > >")
     computer = random.choice(["Paper", "Scissors", "Stone"])
     print("\n")
     W = "You win\n"
@@ -62,7 +62,7 @@ while True:
         round_time -= one
         continue
 
-    answer = "Player:" + player + "Vs. " + "Computer:" + computer
+    answer = "Player:" + player + " Vs. " + "Computer:" + computer
     print("Match result on the upper side")
     time.sleep(1)
     print("")

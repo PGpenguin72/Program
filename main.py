@@ -28,13 +28,13 @@ while True:
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "Turtle Racing":
+    elif Uinput == "Turtle_Racing":
         os.chdir(Games)
         print("\n\n\n mini program booting :D")
         time.sleep(3)
         cmd("cls")
         break
-    elif Uinput == "Random Grouping":
+    elif Uinput == "Random_Grouping":
         os.chdir(Games)
         print("\n\n\n program booting :D")
         time.sleep(3)
@@ -91,10 +91,10 @@ bye()
 if Uinput == "Paper-Scissors-Stone":
     os.chdir(Games)
     cmd("python Paper-Scissors-Stone.py")
-elif Uinput == "Turtle Racing":
+elif Uinput == "Turtle_Racing":
     os.chdir(Games)
-    cmd("python Turtle Racing.py")
-elif Uinput == "Random Grouping":
+    cmd("python Turtle_Racing.py")
+elif Uinput == "Random_Grouping":
     time.sleep(3)
     cmd("cls")
-    cmd("python Random Grouping.py")
+    cmd("python Random_Grouping.py")
