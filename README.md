@@ -13,6 +13,7 @@
 - [猜拳.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E7%8C%9C%E6%8B%B3)
 * [隨機分組.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E9%9A%A8%E6%A9%9F%E5%88%86%E7%B5%84)
 + [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%E8%B3%BD%E9%BE%9C)
++ [賽龜.py](https://github.com/PGpenguin72/Program?tab=readme-ov-file#%%E5%8A%A0%E8%A7%A3%E5%AF%86)
 
 ### 猜拳
 輸入 " 剪刀 石頭 或 布" 可以與系統進行猜拳， 猜拳後會自動統計勝率。
@@ -31,6 +32,10 @@
 神奇的話:
 > 勝率≥20: System:厲害! 本作者都沒辦法玩到這麼高分呢:D  
 > 勝率<20: System:啊? 這麼簡單的遊戲也可以輸成這樣?
+
+### 加解密
+選擇你要加密文字還是解密文字，目前只提供"``base64``, ``basePG--只支持英文及數字``, ``凱薩加密--只支持英文及數字`` 及 ``摩斯密碼--只支持英文及數字``。
+*註: basePG 是 PGpenguin72 創造的一個加密方式，將每個字母以"PG 兩個隨機的英文字母及兩個隨機的數字"組成的六位代號。*
 
 ## 如何提交建議
 點擊右上角的 Code 按鈕後點擊 Download ZIP 來下載原始碼壓縮檔
