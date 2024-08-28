@@ -51,6 +51,12 @@
 
 ## 造作者:
 
-[PGpenguin72](https://github.com/PGpenguin72/) `程式設計` `簡體中文翻譯` `文言文翻譯`\
-[2008-04-03](https://github.com/2008-04-03) `代碼優化`\
-[dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) `英文翻譯`
+[PGpenguin72](https://github.com/PGpenguin72/) `造作者` `通事(簡體中文)` `通事(文言文)`\
+[2008-04-03](https://github.com/2008-04-03) `雞肆`\
+[dou_aguo](https://www.instagram.com/dou_aguo?igshid=NjZiMGI4OTY%3D) `通事(英文)`
+
+## 通事: [![Crowdin](https://badges.crowdin.net/pg_program/localized.svg)](https://crowdin.com/project/pg_program)
+簡體中文: [ ####------ ] 毋校``38%``校``0%``  
+繁體中文(港): [ ---------- ] 毋校``0%``校``0%``  
+文言文: [ ********** ] 毋校``98%``校``0%``  
+英文: [ ######**** ] 毋校``100%``校``57%``  
