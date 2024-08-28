@@ -15,7 +15,7 @@ cmd("cls")
 while True:
     input_players = ""
     while not input_players.strip():
-        input_players = input('Enter the member list, and separate every member's name with ", " (or enter "stop" to end grouping.) \n(e.g. John, Mandy, Jason... etc.) \n > > >')
+        input_players = input("Enter the member list, and separate every member's name with ', ' (or enter 'stop' to end grouping.) \n(e.g. John, Mandy, Jason... etc.) \n > > >")
     if input_players == "stop":
         break
     else:
